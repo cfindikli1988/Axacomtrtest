@@ -21,3 +21,8 @@ schedules:
   branches:
     include:
     - master
+- cron: "0 11 * * *"
+  displayName: Daily midnight build
+  branches:
+    include:
+    - master
