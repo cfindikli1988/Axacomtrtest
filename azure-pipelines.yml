@@ -16,7 +16,7 @@ steps:
   displayName: 'Test with pytest'
 
 schedules:
-- cron: "00 01,13 * * *"
+- cron: "00 13 * * *"
   displayName: run at 1 A.M and 1 P.M
   branches:
     include:
