@@ -17,7 +17,7 @@ steps:
 
 schedules:
 - cron: "15 13 * * *"
-  displayName: run at 4 P.M According to GMT + 3
+  displayName: run at 3:15 P.M According to GMT + 3
   branches:
     include:
     - master
