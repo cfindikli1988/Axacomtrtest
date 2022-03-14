@@ -857,3 +857,752 @@ def test_checkpoint143():
     url = 'https://www.axa.com.tr/media/t1/001/592/835/214/Axa-Sigorta-Mali-Tablo-2011-I.pdf'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
+    
+def test_checkpoint144():
+    url = 'https://www.axahayatemeklilik.com.tr/'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint145():
+    url = 'https://www.axahayatemeklilik.com.tr/kisisel-veri-sahibinin-haklarini-kullanmasi-icin-basvuru'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint146():
+    url = 'https://www.axahayatemeklilik.com.tr/merkez-ofislerimiz'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint147():
+    url = 'https://www.axahayatemeklilik.com.tr/hayat-sigortalari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint148():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-planlari/bireysel-emeklilik/tam-emeklilik-plani'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint149():
+    url = 'https://www.axahayatemeklilik.com.tr/en-yakin-acente'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint150():
+    url = 'https://www.axahayatemeklilik.com.tr/finansal-bilgiler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint151():
+    url = 'https://www.axahayatemeklilik.com.tr/otomatik-katilim'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint152():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-planlari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint153():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-planlari/ozel-emeklilik-plani'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint154():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint155():
+    url = 'https://www.axahayatemeklilik.com.tr/bireysel-emeklilik-sistemi/bilmek-istedikleriniz'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint156():
+    url = 'https://www.axahayatemeklilik.com.tr/hayat-sigortalari/egitim-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint157():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-planlari/bireysel-emeklilik/birikime-ilk-adim-emeklilik-plani'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint158():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-planlari/bireysel-emeklilik-sistemi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint159():
+    url = 'https://www.axahayatemeklilik.com.tr/hakkimizda'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint160():
+    url = 'https://www.axahayatemeklilik.com.tr/hayat-sigortalari/kumbarali-hayat-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint161():
+    url = 'https://www.axahayatemeklilik.com.tr/otomatik-katilim/bilmek-istedikleriniz'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint162():
+    url = 'https://www.axahayatemeklilik.com.tr/bireysel-emeklilik-sistemi/formlar'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint163():
+    url = 'https://www.axahayatemeklilik.com.tr/kisisel-verilerin-korunmasina-iliskin-aydinlatma-bildirimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint164():
+    url = 'https://www.axahayatemeklilik.com.tr/reklamlar'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint165():
+    url = 'https://www.axahayatemeklilik.com.tr/mobil-uygulamalar/axa-fit'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint166():
+    url = 'https://www.axahayatemeklilik.com.tr/gizlilik-ve-kisisel-verilerin-korunmasi-esaslari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint167():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-fon-fiyatlari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint168():
+    url = 'https://www.axahayatemeklilik.com.tr/hayat-sigortalari/yillik-hayat-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint169():
+    url = 'https://www.axahayatemeklilik.com.tr/hak-sahiplerince-aranmayan-paralar'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint170():
+    url = 'https://www.axahayatemeklilik.com.tr/acentelik-basvurusu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint171():
+    url = 'https://www.axahayatemeklilik.com.tr/en'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint172():
+    url = 'https://www.axahayatemeklilik.com.tr/hayat-sigortalari/formlar'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint173():
+    url = 'https://www.axahayatemeklilik.com.tr/sikca-sorulan-sorular'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint174():
+    url = 'https://www.axahayatemeklilik.com.tr/Emeklilik/RahatEmeklilik/Genel_Bilgiler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint175():
+    url = 'https://www.axahayatemeklilik.com.tr/odeme-araclari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint176():
+    url = 'https://www.axahayatemeklilik.com.tr/hayat-sigortalari/bilmek-istedikleriniz'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint177():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-planlari/bireysel-emeklilik/rahat-emeklilik-plani'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint178():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-planlari/bireysel-emeklilik/arti-emeklilik-plani'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint179():
+    url = 'https://www.axahayatemeklilik.com.tr/hayat-sigortalari/uzun-sureli-hayat-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint180():
+    url = 'https://www.axahayatemeklilik.com.tr/insan-kaynaklari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint181():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-planlari/bireysel-emeklilik/destek-emeklilik-plani'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint182():
+    url = 'https://www.axahayatemeklilik.com.tr/iletisim-bilgileri'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint183():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint184():
+    url = 'https://www.axahayatemeklilik.com.tr/hayat-sigortalari/ferdi-kaza-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint185():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/katilim-degisken-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint186():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-as-2019-yili-hayat-bransi-kar-payi-dagitimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint187():
+    url = 'https://www.axahayatemeklilik.com.tr/en/annual-reports'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint188():
+    url = 'https://www.axahayatemeklilik.com.tr/en/pension-funds/pension-mutual-fund/alternative-growth-flexible-pension-mutual-fund'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint189():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler?sayfa=2'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint190():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler?sayfa=3'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint191():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler?sayfa=7'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint192():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler?sayfa=1'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint193():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/otomatik-katilim-fonlari/oks-agresif-degisken-emeklilik-yatirim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint194():
+    url = 'https://www.axahayatemeklilik.com.tr/en/pension-funds/state-contribution-fund'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint195():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/altin-katilim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint196():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/otomatik-katilim-fonlari/oks-temkinli-degisken-yatirim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint197():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/degisken-fon'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint198():
+    url = 'https://www.axahayatemeklilik.com.tr/en/life-insurance/personal-accident-insurance'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint199():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/katki-yatirim-fonu/katki-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint200():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/standart-fon'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint201():
+    url = 'https://www.axahayatemeklilik.com.tr/en/pension-funds/pension-mutual-funds/money-market-liquid-flexible-pension-mutual-fund'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint202():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/para-piyasasi-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint203():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/kamu-dis-borclanma-araclari-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint204():
+    url = 'https://www.axahayatemeklilik.com.tr/en/news'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint205():
+    url = 'https://www.axahayatemeklilik.com.tr/en/pension-funds/pension-mutual-fund/government-eurobond-income-pension-mutual-fund'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint206():
+    url = 'https://www.axahayatemeklilik.com.tr/en/pension-funds/pension-mutual-fund/try-government-bonds-and-bills-income-pension-mutual-fund'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint207():
+    url = 'https://www.axahayatemeklilik.com.tr/en/pension-funds/pension-mutual-fund/axa-flexible-growth-pension-mutual-fund'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint208():
+    url = 'https://www.axahayatemeklilik.com.tr/en/pension-funds/pension-mutual-fund/axa-stock-growth-pension-mutual-fund'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint209():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-as-2017-yili-hayat-bransi-kar-payi-dagitimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint210():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/oks-atak-katilim-degisken-yatirim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint211():
+    url = 'https://www.axahayatemeklilik.com.tr/en/who-we-are'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint212():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/katki-yatirim-fonu/katilim-katki-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint213():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/otomatik-katilim-fonlari/baslangic-emeklilik-yatirim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint214():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/hisse-senedi-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint215():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/otomatik-katilim-fonlari/baslangic-katilim-emeklilik-yatirim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint216():
+    url = 'https://www.axahayatemeklilik.com.tr/en/our-head-offices'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint217():
+    url = 'https://www.axahayatemeklilik.com.tr/en/pension-funds/private-pension-system'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint218():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/aylik-fon-bultenleri-ve-piyasalardaki-gelismeler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint219():
+    url = 'https://www.axahayatemeklilik.com.tr/en/life-insurance/annual-term-life-insurance'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint220():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/oks-atak-degisken-yatirim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint221():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-emeklilik-2018-yili-hayat-bransi-kar-payi-dagitimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint222():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/genel-kurul-ilanlari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint223():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/oks-katilim-standart-emeklilik-yatirim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint224():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/oks-agresif-katilim-degisken-yatirim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint225():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/emeklilik-yatirim-fonlari/oks-standart-emeklilik-yatirim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint226():
+    url = 'https://www.axahayatemeklilik.com.tr/en/life-insurance/long-time-life-insurance'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint227():
+    url = 'https://www.axahayatemeklilik.com.tr/en/pension-funds/state-contribution-fund/alternative-state-contribution-pension-mutual-fund'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint228():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-as-2016-yili-hayat-bransi-kar-payi-dagitimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint229():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-a-s-2020-yili-hayat-bransi-kar-payi-dagitimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint230():
+    url = 'https://www.axahayatemeklilik.com.tr/en/pension-funds/pension-mutual-fund/axa-gold-fund'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint231():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-fonlari/otomatik-katilim-fonlari/oks-dengeli-degisken-yatirim-fonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint232():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-sigortadan-esitlik-imzasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint233():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler?sayfa=5'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint234():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler?sayfa=6'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint235():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler?sayfa=4'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint236():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/dunyanin-en-saygin-finans-dergisi-euromoney-acikladi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint237():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-sigortaya-yenilikci-sirket-odulu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint238():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/fransada-turkiye-mevsimi-basladi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint239():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/cemal-ererdi-yunanistanda-sigortacilik-konferansinda-baskanlik-yapti'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint240():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/yeni-internet-sitemiz-hayata-gecti'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint241():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/unvan-degisikligi-tescil-belgesi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint242():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/taksitli-kart-uygulamalarimiz-hakkinda'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint243():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-sigorta-uretimde-sektor-lideri'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint244():
+    url = 'https://www.axahayatemeklilik.com.tr/en/'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint245():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/acenteler-axa-sigortadan-cok-memnun'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint246():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/2008in-lideri-axa-sigorta'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint247():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-as-2014-yili-hayat-bransi-kar-payi-dagitimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint248():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-as-2015-yili-hayat-bransi-kar-payi-dagitimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint249():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/saglik-portfoy-devri-hakkinda-axa-hayat-sigorta'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint250():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/tum-sigortalilarimiza-hastanelerde-ozel-indirim'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint251():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/euromoneyden-axa-sigortaya-2-odul-daha'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint252():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-as-genel-kurul-tutanagi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint253():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/fonlar-hakkinda-katilimcilara-duyuru'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint254():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-sigorta-2009u-da-sektor-lideri-olarak-kapatti'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint255():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-sigortadan-dort-dortluk-basari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint256():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/bes-tuketici-haklarini-ust-seviyede-koruyor'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint257():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-dunya-baskani-turk-dostu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint258():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-sigorta-2010da-da-lider'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint259():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-azeri-mbask-sigortanin-cogunluk-hissesini-aldi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint260():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-holding-yonetim-kurulu-baskani-ve-ceo-cemal-ererdi-vani-ziyaret-etti'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint261():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-as-genel-kurul-toplantisi-tutanak-ve-kararlari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint262():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/yonetim-kurulu-baskani--ceo-mesaji'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint263():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-as-genel-kurul-ilan-yazisi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint264():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/emeklilik-sisteminde-yeni-duzenlemeler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint265():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-as-2013-yili-hayat-bransi-kar-payi-dagitimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint266():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-as-yonetim-kurulu-kararlari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint267():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-hayat-ve-emeklilik-olagan-genel-kurul-ilani'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint268():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-japonyada-yaralari-sariyor'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
