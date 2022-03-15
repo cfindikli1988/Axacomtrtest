@@ -887,8 +887,8 @@ def test_checkpoint148():
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
-
-    def test_checkpoint6():
+   
+def test_checkpoint6():
     url = 'https://www.axahayatemeklilik.com.tr/en-yakin-acente'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
