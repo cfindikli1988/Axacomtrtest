@@ -858,4 +858,9 @@ def test_checkpoint143():
     response = requests.get(url, verify=False)
     assert response.status_code == 200
     
+    
+def test_checkpoint144():
+    url = 'https://www.axahayatemeklilik.com.tr/haberler/axa-japonyada-yaralari-sariyor'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
 
