@@ -864,3 +864,26 @@ def test_checkpoint144():
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
+def test_checkpoint145():
+    url = 'https://www.axahayatemeklilik.com.tr/kisisel-veri-sahibinin-haklarini-kullanmasi-icin-basvuru'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint146():
+    url = 'https://www.axahayatemeklilik.com.tr/merkez-ofislerimiz'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint147():
+    url = 'https://www.axahayatemeklilik.com.tr/hayat-sigortalari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint148():
+    url = 'https://www.axahayatemeklilik.com.tr/emeklilik-planlari/bireysel-emeklilik/tam-emeklilik-plani'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
